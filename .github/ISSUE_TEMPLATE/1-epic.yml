@@ -13,6 +13,7 @@ body:
   - type: textarea
     id: timeline
     attributes:
+      label: Timeline
       description: The list of target dates for the epic.
       # value: |
       #   | Target                | Start      | End        |
