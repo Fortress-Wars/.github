@@ -22,8 +22,8 @@ body:
         | Beta Testing          | 00/00/0000 | 00/00/0000 |
         | Pre-Release           | 00/00/0000 | 00/00/0000 |
         | Release               | 00/00/0000 | 00/00/0000 |
-      validations:
-        required: true
+    validations:
+      required: true
   - type: checkboxes
     id: definition-of-done
     attributes:
