@@ -10,7 +10,7 @@ body:
       description: A clear and concise description of the epic.
     validations:
       required: true
-  - type: textarea
+  - type: markdown
     id: timeline
     attributes:
       label: Timeline
