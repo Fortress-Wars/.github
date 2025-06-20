@@ -1,0 +1,59 @@
+name: Bug
+description: Report a bug or defect.
+type: "Bug"
+projects: ["Fortress-Wars/2"]
+body:
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Describe the bug and how to reproduce this issue.
+    validations:
+      required: true
+  - type: textarea
+    id: bug-details
+    attributes:
+      label: Bug Details
+      description: Add any additional details that relate to the bug.
+      placeholder: Screenshots, links, additional information, etc.
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: Minecraft Version
+      description: What version of minecraft are you using?
+      placeholder: 1.21.4
+    validations:
+      required: true
+  - type: dropdown
+    id: fortresswars-version
+    attributes:
+      multiple: true
+      label: Fortress Wars Version
+      description: In which version of Fortress Wars did this bug occur?
+      default: 3
+      options:
+        - 3.0.0
+        - 2.2.0
+        - 2.1.0
+        - 2.0.2
+        - 2.0.1
+        - 2.0.0
+        - 1.8.3
+        - 1.8.2
+        - 1.8.1
+        - 1.8.0
+        - 1.7.4
+        - 1.7.3
+        - 1.7.2
+        - 1.7.1
+        - 1.7.0
+    validations:
+      required: true
+  - type: checkboxes
+    id: definition-of-done
+    attributes:
+      label: Definition of Done
+      description: (No need to check these boxes)
+      options:
+        - label: Fix is implemented and merged into the dev-* branch.
+        - label: All code is tested in the dev-* branch.
