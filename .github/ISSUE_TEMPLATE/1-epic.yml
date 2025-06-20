@@ -15,14 +15,14 @@ body:
     attributes:
       label: Timeline
       description: The list of target dates for the epic.
-      # value: |
-      #   | Target                | Start      | End        |
-      #   | --------------------- | ---------- | ---------- |
-      #   | Development & Testing | 00/00/0000 | 00/00/0000 |
-      #   | System Testing        | 00/00/0000 | 00/00/0000 |
-      #   | Beta Testing          | 00/00/0000 | 00/00/0000 |
-      #   | Pre-Release           | 00/00/0000 | 00/00/0000 |
-      #   | Release               | 00/00/0000 | 00/00/0000 |
+      value: |
+        | Target                | Start      | End        |
+        | --------------------- | ---------- | ---------- |
+        | Development & Testing | 00/00/0000 | 00/00/0000 |
+        | System Testing        | 00/00/0000 | 00/00/0000 |
+        | Beta Testing          | 00/00/0000 | 00/00/0000 |
+        | Pre-Release           | 00/00/0000 | 00/00/0000 |
+        | Release               | 00/00/0000 | 00/00/0000 |
     validations:
       required: true
   - type: checkboxes
