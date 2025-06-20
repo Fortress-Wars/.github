@@ -10,7 +10,7 @@ body:
       description: A clear and concise description of the epic.
     validations:
       required: true
-  - type: textarea
+  - type: markdown
     id: timeline
     attributes: timeline
     description: The list of target dates for the epic.
@@ -19,11 +19,11 @@ body:
     value: |
       | Target                | Start      | End        |
       | --------------------- | ---------- | ---------- |
-      | Development & Testing | __/__/____ | __/__/____ |
-      | System Testing        | __/__/____ | __/__/____ |
-      | Beta Testing          | __/__/____ | __/__/____ |
-      | Pre-Release           | __/__/____ | __/__/____ |
-      | Release               | __/__/____ | __/__/____ |
+      | Development & Testing | 00/00/0000 | 00/00/0000 |
+      | System Testing        | 00/00/0000 | 00/00/0000 |
+      | Beta Testing          | 00/00/0000 | 00/00/0000 |
+      | Pre-Release           | 00/00/0000 | 00/00/0000 |
+      | Release               | 00/00/0000 | 00/00/0000 |
   - type: checkboxes
     id: definition-of-done
     attributes:
