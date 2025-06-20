@@ -12,18 +12,18 @@ body:
       required: true
   - type: markdown
     id: timeline
-    attributes: timeline
-    description: The list of target dates for the epic.
-    validations:
-      required: true
-    value: |
-      | Target                | Start      | End        |
-      | --------------------- | ---------- | ---------- |
-      | Development & Testing | 00/00/0000 | 00/00/0000 |
-      | System Testing        | 00/00/0000 | 00/00/0000 |
-      | Beta Testing          | 00/00/0000 | 00/00/0000 |
-      | Pre-Release           | 00/00/0000 | 00/00/0000 |
-      | Release               | 00/00/0000 | 00/00/0000 |
+    attributes:
+      description: The list of target dates for the epic.
+      value: |
+        | Target                | Start      | End        |
+        | --------------------- | ---------- | ---------- |
+        | Development & Testing | 00/00/0000 | 00/00/0000 |
+        | System Testing        | 00/00/0000 | 00/00/0000 |
+        | Beta Testing          | 00/00/0000 | 00/00/0000 |
+        | Pre-Release           | 00/00/0000 | 00/00/0000 |
+        | Release               | 00/00/0000 | 00/00/0000 |
+      validations:
+        required: true
   - type: checkboxes
     id: definition-of-done
     attributes:
