@@ -10,7 +10,7 @@ body:
       description: A clear and concise description of the epic.
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     id: timeline
     attributes:
       description: The list of target dates for the epic.
