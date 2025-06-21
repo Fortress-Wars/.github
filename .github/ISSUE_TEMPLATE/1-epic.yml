@@ -19,11 +19,11 @@ body:
       value: |
         | Target                | Start      | End        |
         | --------------------- | ---------- | ---------- |
-        | Development & Testing | 00/00/0000 | 00/00/0000 |
-        | System Testing        | 00/00/0000 | 00/00/0000 |
-        | Beta Testing          | 00/00/0000 | 00/00/0000 |
-        | Pre-Release           | 00/00/0000 | 00/00/0000 |
-        | Release               | 00/00/0000 | 00/00/0000 |
+        | Development & Testing | __/__/____ | __/__/____ |
+        | System Testing        | __/__/____ | __/__/____ |
+        | Beta Testing          | __/__/____ | __/__/____ |
+        | Pre-Release           | __/__/____ | __/__/____ |
+        | Release               | __/__/____ | __/__/____ |
     validations:
       required: true
   - type: checkboxes
@@ -37,6 +37,3 @@ body:
         - label: Beta Testing Done
         - label: Pre-Release Done
         - label: Release Done
-        - label: All features are done
-        - label: All code is merged to main
-        - label: Documentation for the epic is created.
