@@ -30,7 +30,7 @@ body:
       multiple: true
       label: Fortress Wars Version
       description: In which version of Fortress Wars did this bug occur?
-      default: 2
+      default: 1
       options:
         - 2.2.0
         - 2.1.0
