@@ -21,7 +21,7 @@ body:
     attributes:
       label: Minecraft Version
       description: What version of minecraft are you using?
-      placeholder: 1.21.4
+      placeholder: 1.21.8
     validations:
       required: true
   - type: dropdown
@@ -30,7 +30,7 @@ body:
       multiple: true
       label: Fortress Wars Version
       description: In which version of Fortress Wars did this bug occur?
-      default: 1
+      default: 0
       options:
         - 2.2.0
         - 2.1.1
