@@ -21,7 +21,7 @@ body:
     attributes:
       label: Minecraft Version
       description: What version of minecraft are you using?
-      placeholder: 1.21.8
+      placeholder: 1.21.11
     validations:
       required: true
   - type: dropdown
@@ -32,21 +32,8 @@ body:
       description: In which version of Fortress Wars did this bug occur?
       default: 0
       options:
+        - 2.2.1
         - 2.2.0
-        - 2.1.1
-        - 2.1.0
-        - 2.0.2
-        - 2.0.1
-        - 2.0.0
-        - 1.8.3
-        - 1.8.2
-        - 1.8.1
-        - 1.8.0
-        - 1.7.4
-        - 1.7.3
-        - 1.7.2
-        - 1.7.1
-        - 1.7.0
     validations:
       required: true
   - type: checkboxes
