@@ -32,6 +32,7 @@ body:
       description: In which version of Fortress Wars did this bug occur?
       default: 0
       options:
+        - 2.3.0
         - 2.2.1
         - 2.2.0
     validations:
