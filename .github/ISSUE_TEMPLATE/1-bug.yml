@@ -32,9 +32,8 @@ body:
       description: In which version of Fortress Wars did this bug occur?
       default: 0
       options:
+        - 3.0.0
         - 2.3.0
-        - 2.2.1
-        - 2.2.0
     validations:
       required: true
   - type: checkboxes
@@ -43,5 +42,5 @@ body:
       label: Definition of Done
       description: (No need to check these boxes)
       options:
-        - label: Fix is implemented and merged into the dev-* branch.
-        - label: All code is tested in the dev-* branch.
+        - label: Fix is implemented and merged into the rc branch.
+        - label: All code is tested in the rc branch.
